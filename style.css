@@ -2,7 +2,7 @@ body {
 	font-size: 1.5rem;
 	font-family: sans-serif;
 	text-align: center;
-	background-color: LightSalmon;
+	background-color: white;
 	color: #333;
 	margin: 0;
 }
@@ -24,4 +24,21 @@ h1{
 	a:visited {
 		color: #74638f;
 	}
+}
+#main {
+	margin: 30px 20px;
+	padding: 15px;
+	border-radius: 5px;
+	background:   orange;
+}
+@media (max-width: 460px){
+	#main{
+		margin: 0;
+	}
+}
+img {
+	max-width: 90%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
 }
